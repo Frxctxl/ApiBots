@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "cd ./server && npm run dev"
+    "dev": "cd ./server && npm run dev",
+    "start": "cd ./server && npm start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {}
+  "dependencies": {
+    "mongodb": "^6.8.0"
+  }
 }
